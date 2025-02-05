@@ -1,0 +1,315 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: 'SignikaNegative';
+    src: url(Signika_Negative/static/SignikaNegative-Medium.ttf);  
+}
+
+
+    
+
+
+header{
+    background-image: url(Imagen\ de\ WhatsApp\ 2025-01-29\ a\ las\ 15.23.12_2bec83f1.jpg);
+    height: 710px;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.Efect{
+    height: 100%;
+    width: 100%;
+    background-color:(rgb#0e0202);
+}
+
+.Tema{
+    margin-left: 22px;
+    padding: 32px;
+    color: beige;
+    font-size: 38px;
+    font-family: Verdana;
+    font-family: 'SignikaNegative';
+}
+
+ul{
+    width: 100%;
+    height: 80px;
+    padding: 25px 35px;
+    margin: 0 auto;
+}
+
+.separac{
+    padding: 12px;
+    margin-top: 24px;
+    text-decoration: none;
+    font-size: 35px;
+    color: aliceblue;
+    background-color: #0e0333;
+    border-radius: 17px;
+    font-family: 'SignikaNegative';
+    display: flexbox;
+}
+
+.separac :hover{
+    color: #3b0530;
+}
+
+
+
+.Inicio {
+    background-image: url(Azul\ Espirales\ Bautizo\ Invitación.png);
+    text-align: center;
+    padding: 270px;
+    width: 80%;
+    height: 110px;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 35px;
+    box-shadow: 0 4px #061d5e;
+}
+
+.Botp{
+    text-decoration: none;
+    margin-top: 20px;
+    padding: 14px;
+    border-radius: 18px;
+    font-size: 24px;
+    font-family: 'SignikaNegative';
+    background-color: #13073d;
+    color: aliceblue;
+    display: inline-block;
+    text-align: center;
+}
+
+.Repre12{
+    text-align: center; 
+    margin-top: 22px;
+    background: radial-gradient(rgb(175, 205, 204), transparent);
+    border: 12px;
+    padding: 5px;
+}
+
+.Repr{
+    padding: 14px;
+    font-size: 28px;
+    color: #13073d;
+    font-style: initial;
+    font-family: "Fugaz One", serif;
+    font-style: inherit;
+}
+
+#Pdre{
+    padding: 5px;
+    color: #13073d;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: inherit;
+}
+
+.sepr1{
+    margin: 0 15px;
+}
+
+.PM {
+    padding: 0 0 10px;
+    color: #13073d;
+    font-size: 20px;
+    font-family: Gill Sans MT;
+    margin: 7px;
+    display:inline-block;
+}
+
+#Padrin{
+    padding: 6px;
+    color: #13073d;
+    font-size: 22px;
+    font-family: Roboto;
+    font-style: inherit;
+}
+
+.Padrin{
+    margin: 0 15px;
+}
+
+.PR {
+    padding: 0 0 10px;
+    color: #13073d;
+    font-size: 20px;
+    font-family: Gill Sans MT;
+    margin: 5px;
+    display:inline-block;
+}
+
+.formulario{
+    background-color: white;
+    width: 520px;
+    height: 600px;
+    padding: 40px;
+    margin: auto;
+    margin-top: 105px;
+    box-shadow: 8px 7px 20px 15px #2071db;
+    border-color: #170675;
+    font-family: calibri;
+}
+
+#Tfor{
+    font-size: 28px;
+    font-family: 'SignikaNegative';
+    font-style: oblique;
+    padding-top: 6px;
+    margin-top: 17px;
+    margin: 26px;
+    text-shadow: #3b0530;
+    text-align: center;
+}
+
+.Impu{
+    margin: 24px;
+    width: 90%;
+    height: 70px;
+    margin-bottom: 19px;
+    border-color: #170675;
+    border: 4px;
+    background-color: #f3f3f8;
+    color: rgb(15, 15, 15);
+    font-size: 19px;
+    font-family: calibri;
+    border-radius: 18px;
+    padding: 8px;   
+}
+
+#Tnum{
+    margin: 22px;
+    padding: 10px;
+    line-height: 3px;
+    font-size: 22px;
+    font-family: 'calibri';
+    font-style: inherit;
+    color: #170675;
+}
+
+
+.Confi{
+    width: 90%;
+    height: 70px;
+    padding: 8px;
+    margin-bottom: 16px;
+    margin: 24px;
+    border-color: #0e0202;
+    color: #0e0202;
+    border-radius: 14px;
+    background-color: #f3f3f8;
+}
+
+.Envi{
+    margin: 24px;
+    padding: 8px;
+    width: 90%;
+    height: 75px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    background-color: #061d5e;
+    color: rgb(181, 223, 223);
+    font-size: 26px;
+    font-family: 'SignikaNegative';
+    border-color: whitesmoke;
+}
+
+.Horarios{
+    text-align: center; 
+    margin-top: 22px;
+    margin: 26px;
+    background: radial-gradient(rgb(175, 205, 204), transparent);
+    border: 12px;
+    padding: 17px;
+}
+
+#Encah{
+    padding: 10px;
+    margin: 6px;
+    font-family: "Fugaz One", serif;
+    font-optical-sizing: auto;;
+    font-style: normal;
+    color: #0e0202;
+    font-size: 38px;
+}
+
+#cuerH{
+    padding: 6px;
+    margin: 8%;
+    font-family:Georgia;
+    font-style: normal;
+    color: #0e0202;
+    font-size: 32px;
+}
+    
+
+.Map{
+    background-image: url(Imagen\ de\ WhatsApp\ 2025-02-01\ a\ las\ 18.49.59_a20ed873.jpg);
+    text-align: center;
+    padding: 270px;
+    width: 80%;
+    height: 110px;
+    background-size: 100%;
+    margin: auto;
+    margin-top: 38px;
+    box-shadow: 0 4px #061d5e;
+}
+.BMpa{
+    margin-top: 28px;
+    background-color: #170675;
+    padding: 12px;
+    border-radius: 14px;
+    text-decoration: none;
+    color: aliceblue;
+    font-family: 'SignikaNegative';
+    display: inline-block;
+}
+
+.PIe{
+    width: 100%;
+    height: 240px;
+    background-color: #0e0333;
+    margin: 36px 0 0px 0;
+}
+
+#telefono{
+    margin: auto;
+    margin-right: 28px;
+    text-align: right;
+    padding: 24px;
+    color: #f3f3f8;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+#Ubicapie{
+    margin: auto;
+    margin-right: 28px;
+    text-align: right;
+    padding: 19px;
+    color: #f3f3f8;
+    font-family: calibri;
+}
+
+#Terminos{
+    margin: auto;
+    margin-left: 27px;
+    text-align: left;
+    padding: 20px;
+    color: #f3f3f8;
+    font-family: calibri;
+    text-decoration: none;
+}
+
+
+
