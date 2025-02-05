@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: 'SignikaNegative';
+    src: url(Signika_Negative/static/SignikaNegative-VariableFont_wght.ttf);
+}
+
+header{
+    background-image: url(Imgeubi.jpg);
+    height: 710px;
+    width: 100%;
+    background-size: 100%;
+    background-attachment: fixed;
+    text-align: center;
+    margin: auto;
+    padding: 50px;
+}
+
+.Efect{
+    height: 100%;
+    width: 100%;
+    background-color:(rgb#0e0202);
+}
+
+.Tema{
+    margin-left: 22px;
+    padding: 32px;
+    color: rgb(9, 4, 51);
+    font-size: 38px;
+    font-family: Verdana;
+    font-family: 'SignikaNegative';
+}
+
+ul{
+    width: 100%;
+    height: 80px;
+    padding: 25px 35px;
+    margin: 0 auto;
+}
+
+.separac{
+    padding: 12px;
+    margin-top: 24px;
+    text-decoration: none;
+    font-size: 35px;
+    color: aliceblue;
+    background-color: #0e0333;
+    border-radius: 17px;
+    font-family: 'SignikaNegative';
+    display: flexbox;
+}
+
+.temaubi{
+    margin: auto;
+    margin-top: 25px;
+    padding: 48px;
+    text-align: center;
+}
+
+#TemaU{
+    margin: 28;
+    padding: 16px;
+    color: rgb(32, 32, 131);
+    font-family: "Fugaz One", serif;
+}
+
+.PIe{
+    width: 100%;
+    height: 240px;
+    background-color: #0e0333;
+    margin: 36px 0 0px 0;
+}
+
+#telefono{
+    margin: auto;
+    margin-right: 28px;
+    text-align: right;
+    padding: 24px;
+    color: #f3f3f8;
+    font-family: calibri;
+    font-size: 18px;
+}
+
+#Ubicapie{
+    margin: auto;
+    margin-right: 28px;
+    text-align: right;
+    padding: 19px;
+    color: #f3f3f8;
+    font-family: calibri;
+}
+
+#Terminos{
+    margin: auto;
+    margin-left: 27px;
+    text-align: left;
+    padding: 20px;
+    color: #f3f3f8;
+    font-family: calibri;
+    text-decoration: none;
+}
